@@ -185,12 +185,16 @@ input[type="submit"] {
                 </div>
             </div>
             <center>
-                <input type="submit" name="submit" value="Apply Now">
+                <input type="submit" name="submit" onclick="send()" value="Apply Now">
             </center>
         </form>
     </main>
 
-
+<script>
+    function send(){
+alert("Submitted successfully to A-TECH");
+    }
+</script>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
