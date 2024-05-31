@@ -143,25 +143,27 @@
                </div>
             </div>
             <div class="col-lg-6">
-               <form class="wow fadeInUpBig" data-wow-duration="1.5s">
+               <form class="wow fadeInUpBig" data-wow-duration="1.5s" action="https://api.web3forms.com/submit" method="POST">
+                      <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="0ffeb53f-aa66-4d22-99a3-16e31013d034">
                   <div class="form-row">
                      <div class="form-group col-md-6">
-                        <input type="text" class="form-control" placeholder="Your Name">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                      </div>
                      <div class="form-group col-md-6">
-                        <input type="email" class="form-control" placeholder="Email Address">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                      </div>
                      <div class="form-group col-md-6">
-                        <input type="number" class="form-control" placeholder="Phone Number">
+                        <input type="number" name="mobile" class="form-control" placeholder="Phone Number" required>
                      </div>
                      <div class="form-group col-md-6">
-                        <input type="text" class="form-control" placeholder="Subject">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject">
                      </div>
                      <div class="form-group col-12">
-                        <textarea class="form-control" rows="8" cols="80" placeholder="Write Message"></textarea>
+                        <textarea name="message" class="form-control" rows="8" cols="80" placeholder="Write Message" required></textarea>
                      </div>
                   </div>
-                  <a href="mailto:a.tech.chd@gmail.com" class="btn layer-btn">SEND MESSAGE</button></a>
+                 <button type="submit" class="btn layer-btn">SEND MESSAGE</button>
                </form>
             </div>
          </div>
@@ -174,7 +176,7 @@
       <div class="container">
          <div class="row">
             <div class="col">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.6367092209784!2d76.75077379249497!3d30.722783622006254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedc94dbdc161%3A0x9d2c0e056c04b436!2sPQF2%2B8FC%2C%20adjacent%20to%20Shishu%20Niketan%20School%2C%20Sector%2043-A%2C%20Sector%2043%2C%20Chandigarh%2C%20160047!5e0!3m2!1sen!2sin!4v1712636501108!5m2!1sen!2sin" width="1100" height="450" style="border:0;margin-left: 2%;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             </div>
          </div>
       </div>
